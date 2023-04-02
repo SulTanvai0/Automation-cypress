@@ -14,6 +14,7 @@ describe("create a new course", () => {
     cy.wait(5000).get('a[href="add-courses/0"]').click()
 
     //course title 
+    cy.wait(5000).get('a[href="add-courses/0"]').click()
     
   });
 });
